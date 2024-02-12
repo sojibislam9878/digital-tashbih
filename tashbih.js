@@ -8,7 +8,7 @@ subhanallahb1.addEventListener('click', function() {
     }
     subhanallah += 1;
     subhanallahp.innerText = subhanallah;
-    
+    // subhanallahb1.style.backgroundColor ="blue"
 })
 
 subhanallahb2.addEventListener('click', function() {
@@ -62,4 +62,15 @@ allahuakberb2.addEventListener("click", function(){
     }
     allahuakber -= 1;
     allahuakberp.innerText = allahuakber; 
+})
+
+const resetbtn = document.getElementById("reset")
+resetbtn.addEventListener("click", function(){
+    subhanallah = 0;
+    subhanallahp.innerText = 0;
+    alhamdulilah = 0;
+    alhamdulilahp.innerText = 0;
+    allahuakber = 0;
+    allahuakberp.innerText = 0;
+
 })
